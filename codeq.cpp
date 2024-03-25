@@ -26,4 +26,4 @@ public:
     //case blind table
     for (int c = 0; c < 0x61; ++c) case_table[c] = c;
     for (int c = 0x61; c < 0x7B; ++c) case_table[c] = c - 0x20;
-    for (int c = 0x7B; c < 256; ++c) case_table[c] = c;
+    for (int c = 0x7B; c < 256; ++c) case_table[c] = c;//good
