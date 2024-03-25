@@ -9,7 +9,7 @@
           last_found = j;
           return true;
         }
-        else
+        else//woop
           current += jump_;
       }
       else
